@@ -10,4 +10,11 @@ pip install jedi
 :PlugInstall
 
 Copiar nvimcom desde R en home a la carpeta renv del proyecto.
+S
+copiar jupytext-nvim --> /.local/share/nvim/site/plugin/jupytext.vim
+pip install jupytext
+
+pip install pynvim jupyter_client ueberzug Pillow cairosvg pnglatex plotly kaleido
+
+
 

@@ -51,6 +51,11 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " Plugin para autocompletar cierre de paréntesis, comillas etc.
 Plug 'jiangmiao/auto-pairs'
 
+"Plugin para Jupyter Notebook en Nvim
+Plug 'dccsillag/magma-nvim', { 'do': ':UpdateRemotePlugins' }
+
+Plug 'sansyrox/vim-python-virtualenv'
+
 call plug#end()
 
 " ---------------------------------------
@@ -147,10 +152,20 @@ let R_csv_app = 'terminal:vd'
 
 " ---------------------------------------
 
+" JUPYTER-NVIM (Integra Neovim con ipython/jupyter), REVISAR LA SUSTITUCIÓN DE LA COMA POR LOCAL LEADER
+
+" Mapeo de botones porque este plugin no trae ninguno de forma predeterminada
+nnoremap <expr><silent> ,r  nvim_exec('MagmaEvaluateOperator', v:true)
+nnoremap <silent>       ,rr :MagmaEvaluateLine<CR>
+xnoremap <silent>       ,r  :<C-u>MagmaEvaluateVisual<CR>
+nnoremap <silent>       ,rc :MagmaReevaluateCell<CR>
+
+" ---------------------------------------
+
 " OPCIONALES (Neovim)
 
 " Mapea ',' como Leader
-" let mapleader=","
+"let mapleader="-"
 
 " Mapea 'jj' para entrar en modo normal
 " inoremap jj <Esc>
@@ -159,7 +174,7 @@ let R_csv_app = 'terminal:vd'
 set number
 
 " Mapea ',' como Local Leader para plugins como NvimR
-let maplocalleader=","
+let maplocalleader="y"
 
 " Mapeo de ESC para entrar en modo normal en modo terminal
 :tnoremap <Esc> <C-\><C-n>
@@ -169,4 +184,10 @@ set mouse=a
 
 " ---------------------------------------
 
+" TEMPORALES
+
+" Posicionar aquí la ruta con el binario del entorno virtual de Python a utilizar
+let g:python3_host_prog='/var/home/alex/Documentos/Repos/Online/MasterUCM/venv/bin/python3'
+
+" ---------------------------------------
 
