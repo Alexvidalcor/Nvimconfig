@@ -9,6 +9,13 @@ Carpeta nvim debe situarse en /home/<username>/.config
 
 ### Instalación de librerías complementarias
 
+* Instalación de pip si no estuviera, el:
+
+Debian/Ubuntu --> apt install python3-pip
+RHEL/Fedora --> dnf install python-pip
+Fedora Silverblue --> rpm-ostree install pythonpip
+
+* Instalación de paquetería
 pip install pynvim
 pip install jedi
 
