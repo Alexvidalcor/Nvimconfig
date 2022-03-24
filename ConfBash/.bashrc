@@ -1,5 +1,5 @@
 # Path to your oh-my-bash installation.
-export OSH=/var/home/alex/.oh-my-bash
+export OSH=/home/<username>/.oh-my-bash
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
@@ -124,8 +124,6 @@ fi
 LS_COLORS="di=4;36"
 
 #Aliases
-alias pipes="pipes.sh"
-alias cdmaster="/var/home/alex/Documentos/Repos/Online/MasterUCM"
 
 # ------------------------------------------------------------------------------------------
 

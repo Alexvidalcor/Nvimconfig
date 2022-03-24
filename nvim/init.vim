@@ -30,7 +30,7 @@ Plug 'scrooloose/nerdcommenter'
 " Habilita el formateo de código en múltiples lenguajes
 Plug 'sbdchd/neoformat'
 
-" Habilita el formateo de Python para neovim. Útil si se integra con otros plugins como 'neoformat
+" Habilita el formateo de Python para neovim. Útil si se integra con otros plugins como 'neoformat'
 Plug 'davidhalter/jedi-vim'
 
 " Chequeador de código, se apoya en linters como 'PyLint'
@@ -187,7 +187,7 @@ set mouse=a
 " TEMPORALES
 
 " Posicionar aquí la ruta con el binario del entorno virtual de Python a utilizar
-let g:python3_host_prog='/var/home/alex/Documentos/Repos/Online/MasterUCM/venv/bin/python3'
+let g:python3_host_prog=''
 
 " ---------------------------------------
 
