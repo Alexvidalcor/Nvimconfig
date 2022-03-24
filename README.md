@@ -1,7 +1,7 @@
 # ConfigNvim
-Configuraciones empleadas en Nvim, Bash etc.
+Configuraciones personales empleadas en Nvim, Bash etc.
 
-## Tutorial de instalación
+## Tutorial de instalación NVIM custom
 
 ### Situar archivos
 
