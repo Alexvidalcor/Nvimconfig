@@ -1,8 +1,8 @@
 # ConfigNvim
 
-Configuraciones personales empleadas en Nvim, Bash etc.
+Configuraciones personales empleadas en Neovim, Bash y Tmux.
 
-## Tutorial de instalación de configuración personal de NVIM
+## Tutorial de instalación de Neovim personalizado
 
 ### Instalar nvim
 
