@@ -2,11 +2,19 @@
 
 Configuraciones personales empleadas en Nvim, Bash etc.
 
-## Tutorial de instalación NVIM custom
+## Tutorial de instalación de configuración personal de NVIM
+
+### Instalar nvim
+
+Ejemplo para Debian:
+
+```
+apt install neovim
+```
 
 ### Situar archivos
 
-Carpeta nvim debe situarse en: /home/<username>/.config
+Carpeta nvim debe situarse en: /home/nombreusuario/.config
 
 ### Instalación de librerías complementarias
 
@@ -18,7 +26,7 @@ Carpeta nvim debe situarse en: /home/<username>/.config
 apt install python3-pip
 ```
 
-* RHEL/Fedora
+* RHEL/Fedora Workstation
 
 ```
 dnf install python-pip
