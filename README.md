@@ -64,11 +64,11 @@ Ejecutar neovim (comando: "nvim") y lanzar los siguientes comandos dentro del ed
 
 ### Detalles adicionales
 
-**Si se utiliza un entorno virtual de R (renv) en el proyecto
+**Si se utiliza un entorno virtual de R (renv) en el proyecto**
 
 * Copiar nvimcom desde R en home a la carpeta renv del proyecto.
 
-**Si se va a utilizar jupyter notebook de Python en el proyecto.
+**Si se va a utilizar jupyter notebook de Python en el proyecto**
 
 * Copiar jupytext-nvim
 
