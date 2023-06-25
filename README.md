@@ -62,21 +62,23 @@ Execute neovim (command: "nvim") and launch the following commands within the ed
 :UpdateRemotePlugins
 ```
 
+---
+
 ### Additional details
 
-** If a R virtual environment (RENV) is used in the project **
+**If a R virtual environment (RENV) is used in the project**
 
 * Copy nvimcom from R to Home to the Renv folder of the project.
 
-** If a Python Jupyter Notebook is going to be used in the project **
+**If a Python Jupyter Notebook is going to be used in the project**
 
 * Copy jupytext-nvim
 
-``
+```
 <!-Within the directory where jupytext-nvim is located->
 
 CP Jupytext-nvim /.local/share/nvim/site/plugin/jupytext.vim
-``
+```
 
 
 
