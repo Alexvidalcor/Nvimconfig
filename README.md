@@ -18,7 +18,7 @@ Nvim folder should be placed at: /home/nameuser/.config
 
 ### Installation of complementary libraries
 
-** PIP installation (if not previously installed) **
+**PIP installation (if not previously installed)**
 
 * Debian/Ubuntu
 
@@ -37,7 +37,7 @@ dnf install python-pip
 rpm-ostree install python-pip
 ```
 
-** Additional parcel installation **
+**Additional package installation**
 
 ```
 pip install pynvim jupyter_client ueberzug Pillow cairosvg pnglatex plotly kaleido pynvim jedi jupytext
