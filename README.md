@@ -4,7 +4,7 @@ Personal settings used in Neovim, Bash and Tmux.
 
 ## Custom Neovim Installation Tutorial
 
-### Install NVIM
+### Install Nvim
 
 Example for Debian:
 
