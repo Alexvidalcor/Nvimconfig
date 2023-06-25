@@ -43,7 +43,7 @@ rpm-ostree install python-pip
 pip install pynvim jupyter_client ueberzug Pillow cairosvg pnglatex plotly kaleido pynvim jedi jupytext
 ```
 
-### Plug-VIM installation
+### Plug-Vim installation
 
 Installation of Plugins Manager for Vim (compatible with Neovim):
 
@@ -66,7 +66,7 @@ Execute neovim (command: "nvim") and launch the following commands within the ed
 
 ### Additional details
 
-**If a R virtual environment (RENV) is used in the project**
+**If a R virtual environment (renv) is used in the project**
 
 * Copy nvimcom from R to Home to the Renv folder of the project.
 
